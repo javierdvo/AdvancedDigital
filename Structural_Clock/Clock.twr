@@ -1,0 +1,651 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Clock.twx Clock.ncd -o Clock.twr Clock.pcf -ucf Clock.ucf
+
+Design file:              Clock.ncd
+Physical constraint file: Clock.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.23 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk100MHz
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Rst         |    9.054(R)|      SLOW  |   -1.092(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock DecEnt<0>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.376(F)|      SLOW  |   -2.188(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |    5.108(F)|      SLOW  |   -2.535(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock DecEnt<1>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.966(F)|      SLOW  |   -2.630(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |    5.610(F)|      SLOW  |   -2.936(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock DecEnt<2>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.063(F)|      SLOW  |   -2.081(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |    5.098(F)|      SLOW  |   -2.646(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock DecEnt<3>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    3.598(F)|      SLOW  |   -1.613(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |    6.216(F)|      SLOW  |   -3.330(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock HorEn
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    0.994(F)|      SLOW  |    0.391(F)|      SLOW  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |    1.915(F)|      SLOW  |   -0.579(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |    2.445(F)|      SLOW  |   -1.036(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |    2.525(F)|      SLOW  |   -0.981(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |    3.495(F)|      SLOW  |   -1.604(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |    2.630(F)|      SLOW  |   -0.990(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |    2.576(F)|      SLOW  |   -0.905(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |    2.891(F)|      SLOW  |   -1.113(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock MinEn
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    2.016(F)|      SLOW  |   -0.641(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |    1.782(F)|      SLOW  |   -0.485(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |    2.229(F)|      SLOW  |   -0.683(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |    1.357(F)|      SLOW  |   -0.187(F)|      SLOW  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |    1.220(F)|      SLOW  |   -0.036(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |    1.841(F)|      SLOW  |   -0.542(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |    2.735(F)|      SLOW  |   -1.132(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |    2.309(F)|      SLOW  |   -0.776(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock UniEnt<0>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.948(F)|      SLOW  |   -2.661(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |    5.534(F)|      SLOW  |   -2.956(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock UniEnt<1>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    5.224(F)|      SLOW  |   -2.725(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |    5.663(F)|      SLOW  |   -3.150(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock UniEnt<2>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.540(F)|      SLOW  |   -2.380(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |    4.564(F)|      SLOW  |   -2.321(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock UniEnt<3>
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+Rst         |    4.717(F)|      SLOW  |   -2.459(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |    3.490(F)|      SLOW  |   -1.352(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Clock Clk100MHz to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Disp<0>     |        10.533(R)|      SLOW  |         4.306(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Disp<1>     |        10.588(R)|      SLOW  |         4.330(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Disp<2>     |        10.383(R)|      SLOW  |         4.345(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Disp<3>     |        10.622(R)|      SLOW  |         4.477(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<0>      |        13.799(R)|      SLOW  |         4.987(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<1>      |        13.724(R)|      SLOW  |         4.934(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<2>      |        13.507(R)|      SLOW  |         4.826(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<3>      |        13.397(R)|      SLOW  |         4.786(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<4>      |        13.557(R)|      SLOW  |         4.903(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<5>      |        13.410(R)|      SLOW  |         4.836(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+Seg<6>      |        13.604(R)|      SLOW  |         4.906(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<0>   |        10.111(R)|      SLOW  |         4.437(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<1>   |        10.112(R)|      SLOW  |         4.438(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<2>   |        10.025(R)|      SLOW  |         4.407(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<3>   |        10.119(R)|      SLOW  |         4.439(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<4>   |         9.983(R)|      SLOW  |         4.262(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<5>   |         9.920(R)|      SLOW  |         4.230(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+SegOut<6>   |         9.769(R)|      SLOW  |         4.181(R)|      FAST  |Clk100MHz_BUFGP   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock DecEnt<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        16.619(F)|      SLOW  |         8.059(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.738(F)|      SLOW  |         7.491(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<1>      |        16.544(F)|      SLOW  |         8.036(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.663(F)|      SLOW  |         7.468(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<2>      |        16.327(F)|      SLOW  |         7.911(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.446(F)|      SLOW  |         7.343(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<3>      |        16.217(F)|      SLOW  |         7.871(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.336(F)|      SLOW  |         7.303(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<4>      |        16.377(F)|      SLOW  |         7.922(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.496(F)|      SLOW  |         7.354(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<5>      |        16.230(F)|      SLOW  |         7.855(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.349(F)|      SLOW  |         7.287(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<6>      |        16.424(F)|      SLOW  |         7.978(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+            |        15.543(F)|      SLOW  |         7.410(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock DecEnt<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        15.354(F)|      SLOW  |         7.349(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        15.241(F)|      SLOW  |         7.241(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<1>      |        15.148(F)|      SLOW  |         7.228(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        15.035(F)|      SLOW  |         7.120(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<2>      |        14.829(F)|      SLOW  |         7.033(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        14.716(F)|      SLOW  |         6.925(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<3>      |        14.719(F)|      SLOW  |         6.993(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        14.606(F)|      SLOW  |         6.885(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<4>      |        15.059(F)|      SLOW  |         7.169(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        14.946(F)|      SLOW  |         7.061(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<5>      |        14.912(F)|      SLOW  |         7.102(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        14.799(F)|      SLOW  |         6.994(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+Seg<6>      |        15.159(F)|      SLOW  |         7.268(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        15.046(F)|      SLOW  |         7.160(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock DecEnt<2> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        16.299(F)|      SLOW  |         8.026(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.904(F)|      SLOW  |         7.556(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<1>      |        16.192(F)|      SLOW  |         7.973(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.797(F)|      SLOW  |         7.503(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<2>      |        16.046(F)|      SLOW  |         7.865(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.651(F)|      SLOW  |         7.395(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<3>      |        15.936(F)|      SLOW  |         7.825(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.541(F)|      SLOW  |         7.355(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<4>      |        16.260(F)|      SLOW  |         7.981(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.865(F)|      SLOW  |         7.511(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<5>      |        16.113(F)|      SLOW  |         7.914(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.718(F)|      SLOW  |         7.444(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+Seg<6>      |        16.104(F)|      SLOW  |         7.945(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        15.709(F)|      SLOW  |         7.475(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock DecEnt<3> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        16.604(F)|      SLOW  |         8.247(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        16.058(F)|      SLOW  |         7.814(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<1>      |        16.205(F)|      SLOW  |         8.025(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.659(F)|      SLOW  |         7.592(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<2>      |        16.472(F)|      SLOW  |         8.127(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.926(F)|      SLOW  |         7.694(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<3>      |        16.362(F)|      SLOW  |         8.087(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.816(F)|      SLOW  |         7.654(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<4>      |        16.121(F)|      SLOW  |         7.952(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.575(F)|      SLOW  |         7.519(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<5>      |        15.974(F)|      SLOW  |         7.885(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.428(F)|      SLOW  |         7.452(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+Seg<6>      |        16.409(F)|      SLOW  |         8.166(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        15.863(F)|      SLOW  |         7.733(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock HorEn to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        20.212(F)|      SLOW  |        10.260(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        18.195(F)|      SLOW  |         9.021(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.886(F)|      SLOW  |        10.087(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        19.143(F)|      SLOW  |         9.389(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.926(F)|      SLOW  |         9.452(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.498(F)|      SLOW  |         9.134(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        18.517(F)|      SLOW  |         9.173(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        18.068(F)|      SLOW  |         8.846(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<1>      |        19.813(F)|      SLOW  |        10.038(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        18.088(F)|      SLOW  |         8.968(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.680(F)|      SLOW  |         9.966(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        19.068(F)|      SLOW  |         9.366(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.527(F)|      SLOW  |         9.230(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.391(F)|      SLOW  |         9.081(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        18.311(F)|      SLOW  |         9.052(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.993(F)|      SLOW  |         8.823(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<2>      |        20.080(F)|      SLOW  |        10.140(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        17.942(F)|      SLOW  |         8.860(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.361(F)|      SLOW  |         9.771(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        18.851(F)|      SLOW  |         9.241(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.794(F)|      SLOW  |         9.332(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.245(F)|      SLOW  |         8.973(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        17.992(F)|      SLOW  |         8.857(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.776(F)|      SLOW  |         8.698(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<3>      |        19.970(F)|      SLOW  |        10.100(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        17.832(F)|      SLOW  |         8.820(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.251(F)|      SLOW  |         9.731(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        18.741(F)|      SLOW  |         9.201(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.684(F)|      SLOW  |         9.292(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.135(F)|      SLOW  |         8.933(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        17.882(F)|      SLOW  |         8.817(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.666(F)|      SLOW  |         8.658(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<4>      |        19.729(F)|      SLOW  |         9.965(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        18.156(F)|      SLOW  |         8.976(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.591(F)|      SLOW  |         9.907(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        18.901(F)|      SLOW  |         9.252(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.443(F)|      SLOW  |         9.157(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.459(F)|      SLOW  |         9.089(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        18.222(F)|      SLOW  |         8.993(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.826(F)|      SLOW  |         8.709(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<5>      |        19.582(F)|      SLOW  |         9.898(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        18.009(F)|      SLOW  |         8.909(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.444(F)|      SLOW  |         9.840(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        18.754(F)|      SLOW  |         9.185(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.296(F)|      SLOW  |         9.090(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.312(F)|      SLOW  |         9.022(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        18.075(F)|      SLOW  |         8.926(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.679(F)|      SLOW  |         8.642(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+Seg<6>      |        20.017(F)|      SLOW  |        10.179(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+            |        18.000(F)|      SLOW  |         8.940(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+            |        19.691(F)|      SLOW  |        10.006(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+            |        18.948(F)|      SLOW  |         9.308(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+            |        18.731(F)|      SLOW  |         9.371(F)|      FAST  |U6/Rst_GND_18_o_AND_37_o|   0.000|
+            |        18.303(F)|      SLOW  |         9.053(F)|      FAST  |U6/Rst_GND_18_o_AND_39_o|   0.000|
+            |        18.322(F)|      SLOW  |         9.092(F)|      FAST  |U6/Rst_GND_18_o_AND_41_o|   0.000|
+            |        17.873(F)|      SLOW  |         8.765(F)|      FAST  |U6/Rst_GND_18_o_AND_43_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock MinEn to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        18.363(F)|      SLOW  |         9.260(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.688(F)|      SLOW  |         8.862(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.911(F)|      SLOW  |         9.766(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        19.369(F)|      SLOW  |         9.841(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        19.019(F)|      SLOW  |         9.754(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.541(F)|      SLOW  |         9.503(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.685(F)|      SLOW  |         8.789(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.701(F)|      SLOW  |         9.413(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<1>      |        17.964(F)|      SLOW  |         9.038(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.581(F)|      SLOW  |         8.809(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.705(F)|      SLOW  |         9.645(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        19.294(F)|      SLOW  |         9.818(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.620(F)|      SLOW  |         9.532(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.434(F)|      SLOW  |         9.450(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.479(F)|      SLOW  |         8.668(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.626(F)|      SLOW  |         9.390(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<2>      |        18.231(F)|      SLOW  |         9.140(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.435(F)|      SLOW  |         8.701(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.386(F)|      SLOW  |         9.450(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        19.077(F)|      SLOW  |         9.693(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.887(F)|      SLOW  |         9.634(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.288(F)|      SLOW  |         9.342(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.160(F)|      SLOW  |         8.473(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.409(F)|      SLOW  |         9.265(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<3>      |        18.121(F)|      SLOW  |         9.100(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.325(F)|      SLOW  |         8.661(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.276(F)|      SLOW  |         9.410(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        18.967(F)|      SLOW  |         9.653(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.777(F)|      SLOW  |         9.594(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.178(F)|      SLOW  |         9.302(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.050(F)|      SLOW  |         8.433(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.299(F)|      SLOW  |         9.225(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<4>      |        17.880(F)|      SLOW  |         8.965(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.649(F)|      SLOW  |         8.817(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.616(F)|      SLOW  |         9.586(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        19.127(F)|      SLOW  |         9.704(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.536(F)|      SLOW  |         9.459(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.502(F)|      SLOW  |         9.458(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.390(F)|      SLOW  |         8.609(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.459(F)|      SLOW  |         9.276(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<5>      |        17.733(F)|      SLOW  |         8.898(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.502(F)|      SLOW  |         8.750(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.469(F)|      SLOW  |         9.519(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        18.980(F)|      SLOW  |         9.637(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.389(F)|      SLOW  |         9.392(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.355(F)|      SLOW  |         9.391(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.243(F)|      SLOW  |         8.542(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.312(F)|      SLOW  |         9.209(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+Seg<6>      |        18.168(F)|      SLOW  |         9.179(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.493(F)|      SLOW  |         8.781(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        18.716(F)|      SLOW  |         9.685(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        19.174(F)|      SLOW  |         9.760(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        18.824(F)|      SLOW  |         9.673(F)|      FAST  |U5/Rst_GND_13_o_AND_19_o|   0.000|
+            |        18.346(F)|      SLOW  |         9.422(F)|      FAST  |U5/Rst_GND_13_o_AND_21_o|   0.000|
+            |        17.490(F)|      SLOW  |         8.708(F)|      FAST  |U5/Rst_GND_13_o_AND_23_o|   0.000|
+            |        18.506(F)|      SLOW  |         9.332(F)|      FAST  |U5/Rst_GND_13_o_AND_25_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock UniEnt<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        15.691(F)|      SLOW  |         7.475(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.987(F)|      SLOW  |         7.500(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<1>      |        15.616(F)|      SLOW  |         7.452(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.912(F)|      SLOW  |         7.477(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<2>      |        15.399(F)|      SLOW  |         7.327(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.695(F)|      SLOW  |         7.352(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<3>      |        15.289(F)|      SLOW  |         7.287(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.585(F)|      SLOW  |         7.312(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<4>      |        15.449(F)|      SLOW  |         7.338(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.745(F)|      SLOW  |         7.363(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<5>      |        15.302(F)|      SLOW  |         7.271(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.598(F)|      SLOW  |         7.296(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+Seg<6>      |        15.496(F)|      SLOW  |         7.394(F)|      FAST  |U4/Rst_GND_8_o_AND_16_o |   0.000|
+            |        15.792(F)|      SLOW  |         7.419(F)|      FAST  |U6/Rst_GND_18_o_AND_35_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock UniEnt<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        15.772(F)|      SLOW  |         7.811(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        16.417(F)|      SLOW  |         8.076(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<1>      |        15.566(F)|      SLOW  |         7.690(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        16.211(F)|      SLOW  |         7.955(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<2>      |        15.247(F)|      SLOW  |         7.495(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        15.892(F)|      SLOW  |         7.760(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<3>      |        15.137(F)|      SLOW  |         7.455(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        15.782(F)|      SLOW  |         7.720(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<4>      |        15.477(F)|      SLOW  |         7.631(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        16.122(F)|      SLOW  |         7.896(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<5>      |        15.330(F)|      SLOW  |         7.564(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        15.975(F)|      SLOW  |         7.829(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+Seg<6>      |        15.577(F)|      SLOW  |         7.730(F)|      FAST  |U4/Rst_GND_8_o_AND_14_o |   0.000|
+            |        16.222(F)|      SLOW  |         7.995(F)|      FAST  |U6/Rst_GND_18_o_AND_33_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock UniEnt<2> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        14.886(F)|      SLOW  |         7.041(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.410(F)|      SLOW  |         7.361(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<1>      |        14.779(F)|      SLOW  |         6.988(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.303(F)|      SLOW  |         7.308(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<2>      |        14.633(F)|      SLOW  |         6.880(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.157(F)|      SLOW  |         7.200(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<3>      |        14.523(F)|      SLOW  |         6.840(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.047(F)|      SLOW  |         7.160(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<4>      |        14.847(F)|      SLOW  |         6.996(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.371(F)|      SLOW  |         7.316(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<5>      |        14.700(F)|      SLOW  |         6.929(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.224(F)|      SLOW  |         7.249(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+Seg<6>      |        14.691(F)|      SLOW  |         6.960(F)|      FAST  |U4/Rst_GND_8_o_AND_12_o |   0.000|
+            |        15.215(F)|      SLOW  |         7.280(F)|      FAST  |U6/Rst_GND_18_o_AND_31_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock UniEnt<3> to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+Seg<0>      |        15.538(F)|      SLOW  |         7.514(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.479(F)|      SLOW  |         8.860(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<1>      |        15.139(F)|      SLOW  |         7.292(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.080(F)|      SLOW  |         8.638(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<2>      |        15.406(F)|      SLOW  |         7.394(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.347(F)|      SLOW  |         8.740(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<3>      |        15.296(F)|      SLOW  |         7.354(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.237(F)|      SLOW  |         8.700(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<4>      |        15.055(F)|      SLOW  |         7.219(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        16.996(F)|      SLOW  |         8.565(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<5>      |        14.908(F)|      SLOW  |         7.152(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        16.849(F)|      SLOW  |         8.498(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+Seg<6>      |        15.343(F)|      SLOW  |         7.433(F)|      FAST  |U4/Rst_GND_8_o_AND_10_o |   0.000|
+            |        17.284(F)|      SLOW  |         8.779(F)|      FAST  |U6/Rst_GND_18_o_AND_29_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock to Setup on destination clock Clk100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |    5.606|         |         |         |
+DecEnt<0>      |    4.487|   10.605|         |         |
+DecEnt<1>      |    3.617|   10.611|         |         |
+DecEnt<2>      |    3.717|   10.570|         |         |
+DecEnt<3>      |    4.300|   10.778|         |         |
+HorEn          |    8.410|   12.536|         |         |
+MinEn          |    6.987|   10.850|         |         |
+UniEnt<0>      |    3.402|    7.535|         |         |
+UniEnt<1>      |    3.926|   12.101|         |         |
+UniEnt<2>      |    3.983|   10.850|         |         |
+UniEnt<3>      |    5.677|   12.536|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecEnt<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -0.479|         |
+DecEnt<0>      |         |         |    1.217|    2.746|
+DecEnt<1>      |         |         |         |   -1.657|
+DecEnt<2>      |         |         |         |   -1.344|
+DecEnt<3>      |         |         |         |   -1.293|
+HorEn          |         |         |    3.946|    3.946|
+MinEn          |         |         |    3.299|    3.299|
+UniEnt<2>      |         |         |         |   -1.772|
+UniEnt<3>      |         |         |         |   -1.001|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecEnt<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -0.376|         |
+DecEnt<0>      |         |         |         |   -0.714|
+DecEnt<1>      |         |         |    1.001|    3.112|
+DecEnt<2>      |         |         |         |   -1.409|
+DecEnt<3>      |         |         |         |   -1.455|
+HorEn          |         |         |    4.158|    4.158|
+MinEn          |         |         |    3.332|    3.332|
+UniEnt<2>      |         |         |         |   -1.207|
+UniEnt<3>      |         |         |         |   -0.875|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecEnt<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -0.584|         |
+DecEnt<0>      |         |         |         |   -0.855|
+DecEnt<1>      |         |         |         |   -1.436|
+DecEnt<2>      |         |         |    0.454|    3.502|
+DecEnt<3>      |         |         |         |   -1.754|
+HorEn          |         |         |    3.646|    3.646|
+MinEn          |         |         |    2.696|    2.696|
+UniEnt<2>      |         |         |         |   -1.437|
+UniEnt<3>      |         |         |         |   -1.204|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DecEnt<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |    0.125|         |
+DecEnt<0>      |         |         |         |   -1.205|
+DecEnt<1>      |         |         |         |   -1.710|
+DecEnt<2>      |         |         |         |   -0.810|
+DecEnt<3>      |         |         |    1.158|    2.952|
+HorEn          |         |         |    4.764|    4.764|
+MinEn          |         |         |    2.540|    2.540|
+UniEnt<2>      |         |         |         |   -1.547|
+UniEnt<3>      |         |         |         |   -1.511|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock HorEn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |    1.704|         |
+DecEnt<0>      |         |         |   -0.822|    2.746|
+DecEnt<1>      |         |         |   -1.429|    3.112|
+DecEnt<2>      |         |         |   -1.718|    3.502|
+DecEnt<3>      |         |         |   -1.198|    2.952|
+HorEn          |         |         |    2.043|    3.502|
+UniEnt<0>      |         |         |   -1.329|   -1.329|
+UniEnt<1>      |         |         |   -1.129|   -1.129|
+UniEnt<2>      |         |         |   -1.551|    1.890|
+UniEnt<3>      |         |         |   -1.694|    3.104|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock MinEn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+DecEnt<0>      |         |         |   -0.776|   -0.776|
+DecEnt<1>      |         |         |   -0.860|   -0.860|
+DecEnt<2>      |         |         |   -1.322|   -1.322|
+DecEnt<3>      |         |         |   -1.672|   -1.672|
+MinEn          |         |         |    1.321|    1.321|
+UniEnt<0>      |         |         |   -2.068|   -2.068|
+UniEnt<1>      |         |         |   -1.346|   -1.346|
+UniEnt<2>      |         |         |   -1.654|   -1.654|
+UniEnt<3>      |         |         |   -1.373|   -1.373|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UniEnt<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |    1.704|         |
+DecEnt<1>      |         |         |         |    0.051|
+DecEnt<2>      |         |         |         |    0.181|
+DecEnt<3>      |         |         |         |    0.239|
+HorEn          |         |         |    4.265|    4.265|
+MinEn          |         |         |    4.349|    4.349|
+UniEnt<0>      |         |         |    1.109|    1.109|
+UniEnt<2>      |         |         |         |    0.164|
+UniEnt<3>      |         |         |         |    0.623|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UniEnt<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -1.044|         |
+DecEnt<1>      |         |         |         |   -2.162|
+DecEnt<2>      |         |         |         |   -1.848|
+DecEnt<3>      |         |         |         |   -1.907|
+HorEn          |         |         |    4.740|    4.740|
+MinEn          |         |         |    4.316|    4.316|
+UniEnt<1>      |         |         |    1.271|    1.271|
+UniEnt<2>      |         |         |         |   -1.932|
+UniEnt<3>      |         |         |         |   -1.862|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UniEnt<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -1.196|         |
+DecEnt<1>      |         |         |         |   -1.617|
+DecEnt<2>      |         |         |         |   -1.536|
+DecEnt<3>      |         |         |         |   -1.745|
+HorEn          |         |         |    3.139|    3.139|
+MinEn          |         |         |    3.254|    3.254|
+UniEnt<2>      |         |         |    0.452|    1.890|
+UniEnt<3>      |         |         |         |   -1.551|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock UniEnt<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |         |         |   -1.943|         |
+DecEnt<1>      |         |         |         |   -2.633|
+DecEnt<2>      |         |         |         |   -2.883|
+DecEnt<3>      |         |         |         |   -2.798|
+HorEn          |         |         |    2.474|    3.104|
+MinEn          |         |         |    3.553|    3.553|
+UniEnt<2>      |         |         |         |   -2.365|
+UniEnt<3>      |         |         |    0.728|    3.104|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Oct 28 10:24:20 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 156 MB
+
+
+

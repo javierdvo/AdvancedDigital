@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/SelAnodo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SelAnodo
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/RefreshDisplay.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RefreshDisplay
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Mux4to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/DecBCD7Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DecBCD7Seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Cont0a9.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Cont0a9
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Cont0a5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Cont0a5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Cont0a3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Cont0a3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Cont0a23.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Cont0a23
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Clk1Hz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clk1Hz
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Javier/OneDrive/Documents/Rick/P07/P07/Structural_Clock/Clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock

@@ -1,0 +1,56 @@
+
+****** PlanAhead v14.5
+  **** Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -118 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {F:/Sistemas Digitales/Structural_Clock/pa.fromNetlist.tcl}
+# create_project -name Structural_Clock -dir "F:/Sistemas Digitales/Structural_Clock/planAhead_run_3" -part xc6slx16csg324-2
+create_project: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 355.773 ; gain = 31.629
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/Sistemas Digitales/Structural_Clock/Clock.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/Sistemas Digitales/Structural_Clock} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Clock.ucf" [current_fileset -constrset]
+Adding file 'F:/Sistemas Digitales/Structural_Clock/Clock.ucf' to fileset 'constrs_1'
+# add_files [list {Clock.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-2
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Clock.ngc ...
+WARNING:NetListWriters:298 - No output is written to Clock.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Clock.edif ...
+ngc2edif: Total memory usage is 63056 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/Structural_Clock.data/cache/Clock_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/Structural_Clock.data/cache/Clock_ngc_zx.edif]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [F:/Sistemas Digitales/Structural_Clock/Clock.ucf]
+Finished Parsing UCF File [F:/Sistemas Digitales/Structural_Clock/Clock.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e43e0432
+link_design: Time (s): elapsed = 00:00:25 . Memory (MB): peak = 466.598 ; gain = 98.387

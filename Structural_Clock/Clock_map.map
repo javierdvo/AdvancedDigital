@@ -1,0 +1,198 @@
+Release 14.5 Map P.58f (nt)
+Xilinx Map Application Log File for Design 'Clock'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o Clock_map.ncd Clock.ngd Clock.pcf 
+Target Device  : xc6slx16
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 28 10:23:58 2014
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:5fe5393d) REAL time: 4 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:5fe5393d) REAL time: 4 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:5fe5393d) REAL time: 4 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:5fe5393d) REAL time: 5 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:5fe5393d) REAL time: 5 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:5fe5393d) REAL time: 5 secs 
+
+Phase 7.3  Local Placement Optimization
+Phase 7.3  Local Placement Optimization (Checksum:5fe5393d) REAL time: 5 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:5fe5393d) REAL time: 5 secs 
+
+Phase 9.8  Global Placement
+...........
+.............
+Phase 9.8  Global Placement (Checksum:8d59c51) REAL time: 5 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:8d59c51) REAL time: 5 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:519098a9) REAL time: 5 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:519098a9) REAL time: 5 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:519098a9) REAL time: 5 secs 
+
+Total REAL time to Placer completion: 5 secs 
+Total CPU  time to Placer completion: 4 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_35_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_29_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_39_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U5/Rst_GND_13_o_AND_23_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U4/Rst_GND_8_o_AND_12_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_33_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_37_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U5/Rst_GND_13_o_AND_21_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_43_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U4/Rst_GND_8_o_AND_10_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U4/Rst_GND_8_o_AND_16_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_31_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U5/Rst_GND_13_o_AND_25_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U5/Rst_GND_13_o_AND_19_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U6/Rst_GND_18_o_AND_41_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U4/Rst_GND_8_o_AND_14_o is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   16
+Slice Logic Utilization:
+  Number of Slice Registers:                    93 out of  18,224    1%
+    Number used as Flip Flops:                  77
+    Number used as Latches:                     16
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                        181 out of   9,112    1%
+    Number used as logic:                      180 out of   9,112    1%
+      Number using O6 output only:             131
+      Number using O5 output only:              26
+      Number using O5 and O6:                   23
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   2,176    0%
+    Number used exclusively as route-thrus:      1
+      Number with same-slice register load:      0
+      Number with same-slice carry load:         1
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                    82 out of   2,278    3%
+  Number of MUXCYs used:                        40 out of   4,556    1%
+  Number of LUT Flip Flop pairs used:          192
+    Number with an unused Flip Flop:           102 out of     192   53%
+    Number with an unused LUT:                  11 out of     192    5%
+    Number of fully used LUT-FF pairs:          79 out of     192   41%
+    Number of unique control sets:              51
+    Number of slice register sites lost
+      to control set restrictions:             347 out of  18,224    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        32 out of     232   13%
+    Number of LOCed IOBs:                       32 out of      32  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      32    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.19
+
+Peak Memory Usage:  270 MB
+Total REAL time to MAP completion:  6 secs 
+Total CPU time to MAP completion:   5 secs 
+
+Mapping completed.
+See MAP report file "Clock_map.mrp" for details.

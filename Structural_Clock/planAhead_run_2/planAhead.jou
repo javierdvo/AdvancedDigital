@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Mon Oct 27 10:09:16 2014
+# Process ID: 5440
+# Log file: F:/Sistemas Digitales/Structural_Clock/planAhead_run_2/planAhead.log
+# Journal file: F:/Sistemas Digitales/Structural_Clock/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {F:/Sistemas Digitales/Structural_Clock/pa.fromNetlist.tcl}

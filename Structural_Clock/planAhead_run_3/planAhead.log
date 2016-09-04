@@ -1,0 +1,244 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5
+# Build 247527 by xbuild on Mon Mar 25 17:15:20 MDT 2013
+# Start of session at: Mon Oct 27 10:09:47 2014
+# Process ID: 4968
+# Log file: F:/Sistemas Digitales/Structural_Clock/planAhead_run_3/planAhead.log
+# Journal file: F:/Sistemas Digitales/Structural_Clock/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -118 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {F:/Sistemas Digitales/Structural_Clock/pa.fromNetlist.tcl}
+# create_project -name Structural_Clock -dir "F:/Sistemas Digitales/Structural_Clock/planAhead_run_3" -part xc6slx16csg324-2
+create_project: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 359.195 ; gain = 33.523
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/Sistemas Digitales/Structural_Clock/Clock.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/Sistemas Digitales/Structural_Clock} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Clock.ucf" [current_fileset -constrset]
+Adding file 'F:/Sistemas Digitales/Structural_Clock/Clock.ucf' to fileset 'constrs_1'
+# add_files [list {Clock.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-2
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Clock.ngc ...
+WARNING:NetListWriters:298 - No output is written to Clock.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Clock.edif ...
+ngc2edif: Total memory usage is 65152 kilobytes
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Release 14.5 - ngc2edif P.58f (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design Clock.ngc ...
+WARNING:NetListWriters:298 - No output is written to Clock.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Clock.edif ...
+ngc2edif: Total memory usage is 63312 kilobytes
+
+Parsing EDIF File [./.Xil/PlanAhead-4968-qrolce310518/ngc2edif/Clock.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-4968-qrolce310518/ngc2edif/Clock.edif]
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [F:/Sistemas Digitales/Structural_Clock/Clock.ucf]
+Finished Parsing UCF File [F:/Sistemas Digitales/Structural_Clock/Clock.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e43e0432
+link_design: Time (s): elapsed = 00:00:26 . Memory (MB): peak = 468.453 ; gain = 99.180
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clk100MHz]
+endgroup
+startgroup
+set_property package_pin D9 [get_ports HorEn]
+endgroup
+startgroup
+set_property package_pin C4 [get_ports MinEn]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {UniEnt[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {UniEnt[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {UniEnt[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[0]}]]
+startgroup
+set_property package_pin U16 [get_ports {UniEnt[0]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {Seg[7]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {Seg[6]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {Seg[5]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {Seg[4]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {Seg[3]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {Seg[2]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {Seg[1]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {Seg[0]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {SegOut[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {SegOut[7]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {SegOut[6]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {SegOut[5]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {SegOut[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {SegOut[6]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {SegOut[5]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {SegOut[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[3]}]]
+set_property package_pin "" [get_ports [list  {SegOut[1]}]]
+set_property package_pin "" [get_ports [list  {SegOut[2]}]]
+startgroup
+set_property package_pin V15 [get_ports {SegOut[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[2]}]]
+set_property package_pin "" [get_ports [list  {SegOut[0]}]]
+startgroup
+set_property package_pin U15 [get_ports {SegOut[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[1]}]]
+set_property package_pin "" [get_ports [list  {SegOut[0]}]]
+startgroup
+set_property package_pin V16 [get_ports {SegOut[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[0]}]]
+startgroup
+set_property package_pin V16 [get_ports {SegOut[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {SegOut[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {UniEnt[2]}]]
+startgroup
+set_property package_pin M8 [get_ports {UniEnt[3]}]
+endgroup
+set_property is_loc_fixed true [get_ports [list  {UniEnt[3]}]]
+undo
+INFO: [Common 17-17] undo 'set_property is_loc_fixed true [get_ports [list  {UniEnt[3]}]]'
+startgroup
+set_property package_pin V9 [get_ports {UniEnt[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {UniEnt[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {UniEnt[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Disp[3]}]]
+set_property package_pin "" [get_ports [list  {DecEnt[1]}]]
+startgroup
+set_property package_pin T5 [get_ports {DecEnt[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {DecEnt[3]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {DecEnt[2]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {DecEnt[1]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {DecEnt[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {DecEnt[1]}]]
+set_property package_pin "" [get_ports [list  {DecEnt[2]}]]
+set_property package_pin "" [get_ports [list  {DecEnt[3]}]]
+set_property package_pin "" [get_ports [list  {DecEnt[0]}]]
+startgroup
+set_property package_pin T5 [get_ports {DecEnt[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {DecEnt[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {DecEnt[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {DecEnt[0]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {Disp[3]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {Disp[2]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {Disp[1]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {Disp[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See F:/Sistemas Digitales/Structural_Clock\planAhead_pid4968.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Oct 27 10:21:23 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

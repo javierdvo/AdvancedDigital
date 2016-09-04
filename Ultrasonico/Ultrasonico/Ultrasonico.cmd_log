@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+par -w -intstyle ise -ol high -mt off Ultrasonico_map.ncd Ultrasonico.ncd Ultrasonico.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ultrasonico.twx Ultrasonico.ncd -o Ultrasonico.twr Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+par -w -intstyle ise -ol high -mt off Ultrasonico_map.ncd Ultrasonico.ncd Ultrasonico.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ultrasonico.twx Ultrasonico.ncd -o Ultrasonico.twr Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc7a100t-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc6slx16-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+par -w -intstyle ise -ol high -mt off Ultrasonico_map.ncd Ultrasonico.ncd Ultrasonico.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ultrasonico.twx Ultrasonico.ncd -o Ultrasonico.twr Ultrasonico.pcf 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc6slx16-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+xst -intstyle ise -ifn "C:/Sistemas/Ultrasonico/Ultrasonico.xst" -ofn "C:/Sistemas/Ultrasonico/Ultrasonico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc6slx16-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Javier/Downloads/Nexys3_Master_UCF/Nexys3_Master.ucf -p xc6slx16-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Ultrasonico_map.ncd Ultrasonico.ngd Ultrasonico.pcf 
+par -w -intstyle ise -ol high -mt off Ultrasonico_map.ncd Ultrasonico.ncd Ultrasonico.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ultrasonico.twx Ultrasonico.ncd -o Ultrasonico.twr Ultrasonico.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Ultrasonico.ngc Ultrasonico.ngd  

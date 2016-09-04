@@ -1,0 +1,35 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Rst" LOC = B8;
+NET "Clk100MHz" LOC = V10;
+NET "HorEn" LOC = C4;
+NET "MinEn" LOC = D9;
+NET "Seg[7]" LOC = M13;
+NET "Seg[6]" LOC = T17;
+NET "Seg[5]" LOC = T18;
+NET "Seg[4]" LOC = U17;
+NET "Seg[3]" LOC = U18;
+NET "Seg[2]" LOC = M14;
+NET "Seg[1]" LOC = N14;
+NET "Seg[0]" LOC = L14;
+NET "SegOut[7]" LOC = T11;
+NET "SegOut[6]" LOC = R11;
+NET "SegOut[5]" LOC = N11;
+NET "SegOut[4]" LOC = M11;
+NET "SegOut[3]" LOC = V15;
+NET "SegOut[2]" LOC = U15;
+NET "SegOut[1]" LOC = V16;
+NET "SegOut[0]" LOC = U16;
+NET "UniEnt[3]" LOC = M8;
+NET "UniEnt[2]" LOC = V9;
+NET "UniEnt[1]" LOC = T9;
+NET "UniEnt[0]" LOC = T10;
+NET "DecEnt[3]" LOC = T5;
+NET "DecEnt[2]" LOC = V8;
+NET "DecEnt[1]" LOC = U8;
+NET "DecEnt[0]" LOC = N8;
+NET "Disp[3]" LOC = N16;
+NET "Disp[2]" LOC = N15;
+NET "Disp[1]" LOC = P18;
+NET "Disp[0]" LOC = P17;

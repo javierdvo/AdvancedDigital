@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Nov 27 13:10:12 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Led<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "Led<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Sensor" LOCATE = SITE "V12" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "Led<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "Led<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "Led<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "Clk1" LOCATE = SITE "V10" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "Sound" LOCATE = SITE "N10" LEVEL 1;
+COMP "seg<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "Led<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Led<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Led<2>" LOCATE = SITE "U15" LEVEL 1;
+SCHEMATIC END;
+

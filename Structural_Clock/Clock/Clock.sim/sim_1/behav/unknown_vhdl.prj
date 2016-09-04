@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../SelAnodo.vhd"
+vhdl xil_defaultlib  "../../../../RefreshDisplay.vhd"
+vhdl xil_defaultlib  "../../../../Mux4to1.vhd"
+vhdl xil_defaultlib  "../../../../DecBCD7Seg.vhd"
+vhdl xil_defaultlib  "../../../../Cont0a9.vhd"
+vhdl xil_defaultlib  "../../../../Cont0a5.vhd"
+vhdl xil_defaultlib  "../../../../Cont0a3.vhd"
+vhdl xil_defaultlib  "../../../../Cont0a23.vhd"
+vhdl xil_defaultlib  "../../../../Clk1Hz.vhd"
+vhdl xil_defaultlib  "../../../../Clock.vhd"
+
+# Do not sort compile order
+nosort
